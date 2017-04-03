@@ -1,0 +1,111 @@
+a.brand img {
+	border-radius:50%;
+	border:5px solid #fff;
+}
+.home, .werk, .bestanden {
+	padding:30px 0;
+}
+.home h2, .werk h2, .bestanden h2 {
+	font-weight:normal;
+	color: #39D084;
+}
+/***** home *****/
+.home h1 {
+	color:#39d084;
+	font-weight: normal;
+}
+.home h3 {
+	color:#fff;
+	font-weight: normal;
+}
+.home p {
+	color:#fff;
+	font-size:18px;
+	line-height: 35px;
+	margin-top: 30px;
+}
+.home .container .span5 {
+	padding:40px 0;
+}
+a.hire-me:hover {
+	text-decoration:none;
+	background:#11d170;
+}
+.social {
+	text-align:center;
+}
+ul.social-icons {
+	margin:5px 0;
+}
+ul.social-icons li {
+	list-style:none;
+	display:inline-block;
+	margin:3px;
+}
+ul.social-icons li:first-child {
+	margin-left:0;
+}
+ul.social-icons li a {
+	opacity:0.8;
+}
+ul.social-icons li a:hover {
+	opacity:1;
+}
+
+/**** werk container *****/
+ul.werk-images li {
+	list-style:none;
+	display:inline-block;
+	margin: 8px 10px;
+}
+ul.werk-images li:first-child {
+	margin-left:20;
+}
+ul.werk-images li div {
+	background:url(../img/glass.png) 50% 50% no-repeat;
+	background-color: #ffffff;
+	-webkit-transition: all 0.2s linear;
+	-moz-transition: all 0.2s linear;
+	-o-transition: all 0.2s linear;
+	transition: all 0.2s linear;
+}
+ul.werk-images li img {
+	-webkit-transition: all 0.2s linear;
+	-moz-transition: all 0.2s linear;
+	-o-transition: all 0.2s linear;
+	transition: all 0.2s linear;
+}
+ul.werk-images li img:hover {
+	opacity:0.5;
+}
+/***** bestanden container *****/
+.bestanden h3 {
+	margin:60px 0;
+}
+.bestanden .btn-center {
+	text-align:center;
+}
+.footer {
+	background:#355267;
+	position: fixed;
+	width: 100%;
+	bottom:0;
+}
+.footer p {
+	margin:20px 0;
+}
+.footer p a {
+	color:#fff;
+	text-decoration:none;
+}
+.footer p a:hover {
+	color:#39d084;
+}
+
+#inloggen {
+  width:100%
+  background-color:#ffffff;
+  overflow:auto;
+  text-align:center;
+  padding: 20px;
+}
